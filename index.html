@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <canvas id="bg-canvas"></canvas>
+
+    <nav>
+        <div class="nav-logo">Portfolio</div>
+        <ul class="nav-links">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Work</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button class="theme-toggle-btn" id="theme-btn" aria-label="Toggle Theme">
+            <i class="fas fa-sun"></i>
+        </button>
+    </nav>
+
+    <header class="hero" id="home">
+        <div class="hero-content hidden-el">
+            <div class="hero-greeting">Hello, I'm</div>
+            <h1>
+                <span id="display-name">Loading...</span>
+            </h1>
+            <p class="hero-desc" id="display-headline">
+                Crafting digital experiences with passion and precision.
+            </p>
+            <div class="hero-buttons">
+                <a href="#contact" class="btn btn-primary">Get in Touch</a>
+                <a href="#projects" class="btn btn-outline">View Work</a>
+            </div>
+        </div>
+    </header>
+
+    <section id="about">
+        <div class="section-header hidden-el">
+            <div class="section-subtitle">About Me</div>
+            <h2 class="section-title">Who I Am</h2>
+        </div>
+        <div class="hidden-el">
+            <p id="display-about"
+                style="font-size: 1.2rem; color: var(--text-muted); line-height: 1.8; max-width: 800px; margin: 0 auto; text-align: center;">
+                <!-- About text -->
+            </p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="section-header hidden-el">
+            <div class="section-subtitle">Expertise</div>
+            <h2 class="section-title">My Skills</h2>
+        </div>
+        <div class="skills-wrapper" id="skills-list">
+            <!-- Skills populated by JS -->
+        </div>
+    </section>
+
+    <section id="experience">
+        <div class="section-header hidden-el">
+            <div class="section-subtitle">Career Path</div>
+            <h2 class="section-title">Experience</h2>
+        </div>
+        <div class="experience-list" id="experience-list">
+            <!-- Experience populated by JS -->
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="section-header hidden-el">
+            <div class="section-subtitle">Portfolio</div>
+            <h2 class="section-title">Selected Works</h2>
+        </div>
+        <div class="projects-grid" id="projects-list">
+            <!-- Projects populated by JS -->
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="contact-section hidden-el" style="margin: 0 auto;">
+            <div class="section-header">
+                <div class="section-subtitle">Get in Touch</div>
+                <h2 class="section-title">Let's Connect</h2>
+            </div>
+            <p style="color: var(--text-muted); font-size: 1.2rem; margin-bottom: 2rem;">
+                I'm always open to discussing new projects, creative ideas or opportunities to be part of your visions.
+            </p>
+            <div class="social-links" id="social-links">
+                <!-- Socials -->
+            </div>
+            <a href="#" id="contact-btn" class="btn btn-primary" style="text-decoration: none; display: inline-block;">
+                Say Hello <i class="fas fa-paper-plane" style="margin-left: 0.5rem;"></i>
+            </a>
+
+            <div id="form-embed" style="margin-top: 4rem; width: 100%;">
+                <!-- Form iframe container -->
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy;
+            <script>document.write(new Date().getFullYear())</script> <span class="nav-logo"
+                style="font-size: 1rem;">Portfolio</span>. All Rights Reserved.
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

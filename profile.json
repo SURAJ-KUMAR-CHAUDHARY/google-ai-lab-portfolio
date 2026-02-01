@@ -1,0 +1,79 @@
+{
+    "name": "Suraj Kumar",
+    "headline": "Software Engineer | Full Stack Developer",
+    "location": "India",
+    "email": "3380suraj@gmail.com",
+    "links": {
+        "linkedin": "https://www.linkedin.com/in/suraj-kum",
+        "instagram": "",
+        "topmate": "",
+        "github": "https://github.com/suraj-kum"
+    },
+    "about": "Passionate developer with a knack for building immersive web experiences. Experienced in modern web technologies and creating efficient, scalable solutions.",
+    "skills": [
+        "JavaScript",
+        "React",
+        "Python",
+        "Node.js",
+        "CSS3",
+        "HTML5",
+        "SQL",
+        "Git"
+    ],
+    "experience": [
+        {
+            "title": "Software Developer",
+            "company": "Tech Innovations Inc.",
+            "dates": "2023 - Present",
+            "bullets": [
+                "Developed scalable web applications using React and Node.js.",
+                "Optimized frontend performance, reducing load times by 40%.",
+                "Collaborated with cross-functional teams to deliver high-quality software."
+            ]
+        },
+        {
+            "title": "Intern",
+            "company": "Oriental Group of Institutes",
+            "dates": "2021 - 2023",
+            "bullets": [
+                "Assisted in full-stack development projects.",
+                "Maintained and updated legacy codebases."
+            ]
+        }
+    ],
+    "projects": [
+        {
+            "name": "Portfolio Generator",
+            "description": "An AI-powered tool to generate profile websites from PDFs.",
+            "tech": [
+                "Python",
+                "JavaScript",
+                "AI"
+            ],
+            "link": "#"
+        },
+        {
+            "name": "E-Commerce Dashboard",
+            "description": "A comprehensive dashboard for managing online stores.",
+            "tech": [
+                "React",
+                "Firebase",
+                "Tailwind"
+            ],
+            "link": "#"
+        }
+    ],
+    "education": [
+        {
+            "school": "Oriental Group of Institutes",
+            "degree": "Bachelor of Technology",
+            "dates": "2020 - 2024"
+        },
+        {
+            "school": "Kakatiya Public School",
+            "degree": "Secondary, CBSE",
+            "dates": "2020 - 2021"
+        }
+    ],
+    "certifications": []
+}
